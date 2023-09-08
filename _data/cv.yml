@@ -13,7 +13,7 @@
   contents:
     - title: PhD
       institution: University of Oklahoma, Norman, OK
-      year: 2023 (Expected)
+      year: 2023
       description:
         - Dissertation Title "Three Essay in Political Economy and Policy".
         - Chair Dr. Firat Demir.
@@ -22,7 +22,8 @@
       year: 2017
     - title: Bachelor of Science (Honors) (Major: Economics)
       institution: Government College University, Lahore, Pakistan
-      year: 2015      
+      year: 2015    
+      
 - title: Experience
   type: time_table
   contents:
