@@ -2,7 +2,7 @@
 layout: page
 permalink: /research/
 title: Research
-description: Research Interests':' Political Economy, Development, Public Economics, and Applied Economics. 
+description: Research Interests - Political Economy, Development, Public Economics, and Applied Economics. 
 nav: true
 nav_order: 1
 ---
