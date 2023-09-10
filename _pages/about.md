@@ -23,5 +23,3 @@ I am a Ph.D. Economics candidate at the University of Oklahoma, expecting to gra
 
 My Ph.D. dissertation includes three essays: the effect of US state-level campaign contribution laws on welfare policy, the relationship between political ideology and productive capabilities (long-run development), and how political ideology affects IMF program participation and vice versa.
 In my free time, I like to read, play Xbox, or make travel plans with my family.
-
-# Please feel free to check out the Data tab on this website. I have maintained weblinks to some useful datasets.
