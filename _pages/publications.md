@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /publications/
+permalink: /research/
 title: Research
 description: Research Interests - Political Economy, Development, Public Economics, and Applied Economics. 
 nav: true
