@@ -20,7 +20,7 @@ nav_order: 5
 * Summer 2023
 
 
-### Teaching Assistant (at the University of Oklahoma)
+### **Teaching Assistant (at the University of Oklahoma)**
 
 * Principles of Microeconomics (Fall 2019, Spring 2020, Fall 2020)
 * Intermediate Microeconomic Theory (Spring 2021)
