@@ -7,7 +7,7 @@ nav: true
 nav_order: 5
 ---
 
-#### Teaching Experience (at the University of Oklahoma)
+### **Teaching Experience (at the University of Oklahoma)**
 
 **Principles of Microeconomics**
 * Summer 2021; Spring 2023
