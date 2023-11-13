@@ -18,11 +18,12 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 <p style='text-align: justify;'>
-Hi, welcome to my website!
+Hi, welcome to my website!\
 
 
-I am a Ph.D. Economics candidate at the University of Oklahoma, expecting to graduate in May 2024. I work on applied micro and macro issues focusing on political economy, development, and public economics. My Ph.D. dissertation includes three essays: the effect of US state-level campaign contribution laws on welfare policy, the relationship between political ideology and productive capabilities (long-run development), and how political ideology affects IMF program participation and vice versa.
+I am a Ph.D. Economics candidate at the University of Oklahoma (OU), expecting to graduate in May 2024. I work on applied micro and macro issues focusing on political economy, development, and public economics. My Ph.D. dissertation includes three essays: the effect of US state-level campaign contribution laws on welfare policy, the relationship between political ideology and productive capabilities (long-run development), and how political ideology affects IMF program participation and vice versa. I am in the 2023-25 job market and available for interviews. \
 
+I have also taught six courses at OU as a principal instructor. These include Principles of Microeconomics (twice), Principles of Macroeconomics (four times), and Intermediate Microeconomic Theory (once). I also have two years of experience as a teaching assistant.\  
 
 In my free time, I like to read, play Xbox, or make travel plans with my family.
 </p>
