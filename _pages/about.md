@@ -19,21 +19,22 @@ social: true  # includes social icons at the bottom of the page
 
 <p style='text-align: justify;'>
 Hi, welcome to my website! <br />
+<br>
 
 I am a Ph.D. Economics candidate at the University of Oklahoma (OU), expecting to graduate in May 2024. I work on applied micro and macro issues focusing on political economy, development, and public economics. <br /> 
+<br>
 
-
-My Ph.D. dissertation includes three essays: the effect of US state-level campaign contribution laws on welfare policy, the relationship between political ideology and productive capabilities (long-run development), and how political ideology affects IMF program participation and vice versa. <br />  
-
+My Ph.D. dissertation includes three essays: the effect of US state-level campaign contribution laws on welfare policy, the relationship between political ideology and productive capabilities (long-run development), and how political ideology affects IMF program participation and conditionalities and how IMF program and conditions, in turn, affect political ideology. <br />  
+<br> 
 
 I have also taught three courses (seven times) at OU as a principal instructor. These include Principles of Microeconomics (twice), Principles of Macroeconomics (four times), and Intermediate Microeconomic Theory (once). I also have two years of experience as a teaching assistant. <br />
-
+<br>
 
 I am available for interviews in the 2023-24 job market. <br /> 
-
+<br>
 
 In my free time, I like to read, play Xbox, or make travel plans with my family.  <br /> 
-
+<br>
 
 *Note:* Please click on HTML to access paper drafts.
 </p>
