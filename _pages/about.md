@@ -7,9 +7,9 @@ subtitle: <a href='#'>University of Oklahoma</a>. ahmed.ch@ou.edu
 profile:
   align: right
   image: prof_pic.jpeg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   address: >
-    <p style='text-align: justify;'>Norman, OK 73072</p>
+    
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
