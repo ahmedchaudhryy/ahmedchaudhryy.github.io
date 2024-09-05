@@ -26,7 +26,7 @@ I am an Assistant Professor at Harland C. Stonecipher School of Business at East
 I completed my Ph.D. in Economics from the University of Oklahoma (OU) in Spring 2024. I work on applied macro issues focusing on political economy, development, and public economics. <br /> 
 <br>
 
-You can find a copy of CV <a href=''>here
+You can find a copy of CV <a href=''>here.</a>
 Please click on the link to access my teaching dossier (statement of teaching philosophy, sample course outlines, and student evaluations) <a href='https://drive.google.com/file/d/1z5G0PW0LeU_AG0Tny1Bot7VTHSq3KNDE/view?usp=sharing'>[Link]</a>. <br />
 <br>
 
