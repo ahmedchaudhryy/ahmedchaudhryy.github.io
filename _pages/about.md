@@ -18,20 +18,21 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 <p style='text-align: justify;'>
-Hi, welcome to my website! <br />
-<br>
+Hi, welcome to my website!  <br /> <br>
 
-I am an Assistant Professor at Harland C. Stonecipher School of Business at East Central University. <br /> <br>
+I am an Assistant Professor at Harland C. Stonecipher School of Business at East Central University.  <br /> <br>
 
-I completed my Ph.D. in Economics from the University of Oklahoma (OU) in Spring 2024. I work on applied macro issues focusing on political economy, development, and public economics. <br /> 
-<br>
+I completed my Ph.D. in Economics from the University of Oklahoma in Spring 2024. I work on applied macro issues focusing on political economy, development, and public economics.  <br /> <br>
+
+As a principal instructor, I have taught principles of macro and micro, intermediate micro, and introductory statistics courses.  <br /> <br>
+
+My research has been recognized by the Missouri Valley Economic Association (MVEA). My paper, "How Campaign Contribution Laws Affect Welfare Policy? Evidence from the US States", presented at the MVEA Annual Meeting 2023, has been declared the Best Graduate Student Paper (sole-authored). I was also awarded a Dissertation Finishing Fellowship by OU's Dodge College of Arts and Sciences during Fall 2023.  <br /> <br>
+
+I like to read, play Xbox, binge-watch seasons and movies, and make travel plans with my family in my free time.  <br /> <br>
 
 You can find a copy of CV <a href=''>here.</a>
 Please click on the link to access my teaching dossier (statement of teaching philosophy, sample course outlines, and student evaluations) <a href='https://drive.google.com/file/d/1z5G0PW0LeU_AG0Tny1Bot7VTHSq3KNDE/view?usp=sharing'>[Link]</a>. <br />
-<br>
-
-In my free time, I like to read, play Xbox, or make travel plans with my family.  <br /> 
-<br>
+<be>
 
 *Note:* Please click on HTML to access paper drafts.
 </p>
