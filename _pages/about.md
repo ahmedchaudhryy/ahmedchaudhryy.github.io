@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://www.ou.edu/cas/economics/people/job-market-candidates'>University of Oklahoma</a>. ahmed.ch@ou.edu
+subtitle: <a href='https://www.ecok.edu/academics/colleges-and-schools/harland-c-stonecipher-school-business'>East Central University</a>. achaudhry@ecok.edu
 
 profile:
   align: right
