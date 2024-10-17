@@ -6,7 +6,7 @@ subtitle: <a href='https://www.ecok.edu/academics/colleges-and-schools/harland-c
 
 profile:
   align: right
-  image: prof_pic.jpeg
+  image: prof_pic.JPG
   image_circular: false # crops the image to make it circular
   address: >
     
