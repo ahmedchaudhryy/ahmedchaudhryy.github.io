@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: I cannot teach anybody anything; I can only make them think - Socrates <br> Please click <a href='https://drive.google.com/file/d/1UOcb0-Wu90lcBKCoEmqsQ5hC_eHDaO_u/view?usp=sharing'>[here]</a> to access my teaching dossier.
+description: I cannot teach anybody anything; I can only make them think - Socrates <br> Please click <a href='https://drive.google.com/file/d/1UOcb0-Wu90lcBKCoEmqsQ5hC_eHDaO_u/view?usp=sharing'>here</a> to access my teaching dossier.
 nav: true
 nav_order: 5
 ---
