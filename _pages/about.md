@@ -30,9 +30,7 @@ My research has been recognized by the Missouri Valley Economic Association (MVE
 
 I like to read, play Xbox, binge-watch seasons and movies, and make travel plans with my family in my free time.  <br /> <br>
 
-You can find a copy of CV <a href='https://github.com/ahmedchaudhryy/ahmedchaudhryy.github.io/blob/master/_pages/cv.md'>here.</a>
 Please click on the link to access my teaching dossier (statement of teaching philosophy, sample course outlines, and student evaluations) <a href='https://drive.google.com/file/d/1UOcb0-Wu90lcBKCoEmqsQ5hC_eHDaO_u/view?usp=sharing'>[Link]</a>. <br /> <br>
 <be>
 
 *Note:* Please click on HTML to access paper drafts.
-</p>
