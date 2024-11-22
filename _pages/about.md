@@ -22,7 +22,7 @@ Hi, welcome to my website!  <br /> <br>
 
 I am an Assistant Professor at Harland C. Stonecipher School of Business at East Central University.  <br /> <br>
 
-I completed my Ph.D. in Economics from the University of Oklahoma in Spring 2024. I work on applied macro issues focusing on political economy, development, and public economics.  <br /> <br>
+I completed my Ph.D. in Economics from the University of Oklahoma in Spring 2024. I work on applied macro issues focusing on political economy, development, international, and public economics.  <br /> <br>
 
 I have taught principles of macro and micro, intermediate micro, and introductory statistics courses as a principal instructor.  <br /> <br>
 
