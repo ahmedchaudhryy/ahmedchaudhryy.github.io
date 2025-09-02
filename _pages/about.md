@@ -22,15 +22,13 @@ Hi, welcome to my website!  <br /> <br>
 
 I am an Assistant Professor at Harland C. Stonecipher School of Business at East Central University.  <br /> <br>
 
-I completed my Ph.D. in Economics from the University of Oklahoma in Spring 2024. I work on applied macro issues focusing on political economy, development, international, and public economics.  <br /> <br>
+I completed my Ph.D. in Economics at the University of Oklahoma in the Spring of 2024. My research focuses on political economy (domestic & international), development, international, and public economics. Specifically, I am interested in examining how political institutions and international organizations influence economic policies and long-term development outcomes. My paper, "How Campaign Contribution Laws Affect Welfare Policy? Evidence from the US States", was declared the Best Graduate Student Paper (sole-authored) at the Missouri Valley Economic Association (MVEA) Annual Meeting 2023.  <br /> <br>
 
-I have taught principles of macro and micro, intermediate micro, and introductory statistics courses as a principal instructor.  <br /> <br>
+As an instructor, I believe in creating meaningful classroom experiences for my students: one should teach as they wish to be taught. In most of my courses, I prioritize a discussion-based learning approach. I have the experience of teaching principles of macroeconomics and microeconomics, intermediate microeconomics, introductory statistics, quantitative methods, and financial markets and institutions (money and banking).  <br /> <br>
 
-My paper, "How Campaign Contribution Laws Affect Welfare Policy? Evidence from the US States", was declared the Best Graduate Student Paper (sole-authored) at the Missouri Valley Economic Association (MVEA) Annual Meeting 2023. I was also awarded a Dissertation Finishing Fellowship by OU's Dodge College of Arts and Sciences in Fall 2023.  <br /> <br>
+I enjoy reading, playing Xbox, binge-watching seasons and movies, and planning trips with my family in my free time.  <br /> <br>
 
-I like to read, play Xbox, binge-watch seasons and movies, and make travel plans with my family in my free time.  <br /> <br>
-
-Please click <a href='https://drive.google.com/file/d/1UOcb0-Wu90lcBKCoEmqsQ5hC_eHDaO_u/view?usp=sharing'>here</a> to access my teaching dossier (statement of teaching philosophy, sample course outlines, and student evaluations). <br /> <br>
+Please click <a href='https://drive.google.com/file/d/1_4I9p70E2YmS_sv4qZQxDmnq8SMJSkg3/view?usp=sharing'>here</a> to access my teaching dossier (statement of teaching philosophy, sample course outlines, and student evaluations). <br /> <br>
 <be>
 
 *Note:* Please click on HTML to access paper drafts.
