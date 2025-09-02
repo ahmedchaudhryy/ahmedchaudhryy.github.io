@@ -7,25 +7,25 @@ nav: true
 nav_order: 5
 ---
 
-### Courses Taught at the East Central University 
+### Courses Taught at East Central University 
 
 *Principles of Macroeconomics*
-* Fall 2024; Spring 2025 (scheduled)
+* Fall 2024, 2025; Spring 2025; Summer 2025
 
 *Principles of Microeconomics*
-* Fall 2024
+* Fall 2024, 2025
 
 *Business and Economics Statistics*
-* Fall 2024; Spring 2025 (scheduled)
+* Fall 2024, 2025; Spring 2025; Summer 2025
 
 *Commercial Banking Management*
-* Fall 2024
+* Fall 2024, 2025
 
 *Financial Markets and Institutions (aka Money and Banking)*
-* Spring 2025 (scheduled)
+* Spring 2025
   
 *Quantitative Methods for Accounting*
-* Spring 2025 (scheduled)
+* Spring 2025
 
 
 ### Courses Taught at the University of Oklahoma
