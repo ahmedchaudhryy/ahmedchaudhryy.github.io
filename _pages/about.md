@@ -30,5 +30,3 @@ I enjoy reading, playing Xbox, binge-watching seasons and movies, and planning t
 
 Please click <a href='https://drive.google.com/file/d/1_4I9p70E2YmS_sv4qZQxDmnq8SMJSkg3/view?usp=sharing'>here</a> to access my teaching dossier (statement of teaching philosophy, sample course outlines, and student evaluations). <br /> <br>
 <be>
-
-*Note:* Please click on HTML to access paper drafts.
