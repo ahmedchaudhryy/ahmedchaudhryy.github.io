@@ -22,7 +22,7 @@ Hi, welcome to my website!  <br /> <br>
 
 I am an Assistant Professor at the Harland C. Stonecipher School of Business at East Central University.  <br /> <br>
 
-I completed my Ph.D. in Economics at the University of Oklahoma in the Spring of 2024. My research focuses on political economy (domestic & international), development, international, and public economics. Specifically, I am interested in examining how political institutions and international organizations influence economic policies and long-term development outcomes. 
+I completed my Ph.D. in Economics at the University of Oklahoma in the Spring of 2024. My research focuses on political economy (domestic & international), development, international, and public economics. Specifically, I am interested in examining how political institutions and international organizations influence economic policies and long-term development outcomes. <br /> <br>
 
 My research has published in peer-reviewed journals including *Applied Economic Letters*, *Economics*, and *Frontiers in Public Health*. One of my articles, "How Campaign Contribution Laws Affect Welfare Policy? Evidence from the US States", was declared the Best Graduate Student Paper (sole-authored) at the Missouri Valley Economic Association (MVEA) Annual Meeting 2023.  <br /> <br>
 
