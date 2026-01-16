@@ -20,11 +20,13 @@ social: true  # includes social icons at the bottom of the page
 <p style='text-align: justify;'>
 Hi, welcome to my website!  <br /> <br>
 
-I am an Assistant Professor at Harland C. Stonecipher School of Business at East Central University.  <br /> <br>
+I am an Assistant Professor at the Harland C. Stonecipher School of Business at East Central University.  <br /> <br>
 
-I completed my Ph.D. in Economics at the University of Oklahoma in the Spring of 2024. My research focuses on political economy (domestic & international), development, international, and public economics. Specifically, I am interested in examining how political institutions and international organizations influence economic policies and long-term development outcomes. My paper, "How Campaign Contribution Laws Affect Welfare Policy? Evidence from the US States", was declared the Best Graduate Student Paper (sole-authored) at the Missouri Valley Economic Association (MVEA) Annual Meeting 2023.  <br /> <br>
+I completed my Ph.D. in Economics at the University of Oklahoma in the Spring of 2024. My research focuses on political economy (domestic & international), development, international, and public economics. Specifically, I am interested in examining how political institutions and international organizations influence economic policies and long-term development outcomes. 
 
-As an instructor, I believe in creating meaningful classroom experiences for my students: one should teach as they wish to be taught. In most of my courses, I prioritize a discussion-based learning approach. I have the experience of teaching principles of macroeconomics and microeconomics, intermediate microeconomics, introductory statistics, quantitative methods, and financial markets and institutions (money and banking).  <br /> <br>
+My research has published in peer-reviewed journals including *Applied Economic Letters*, *Economics*, and *Frontiers in Public Health*. One of my articles, "How Campaign Contribution Laws Affect Welfare Policy? Evidence from the US States", was declared the Best Graduate Student Paper (sole-authored) at the Missouri Valley Economic Association (MVEA) Annual Meeting 2023.  <br /> <br>
+
+As an instructor, I believe in creating meaningful classroom experiences for my students: one should teach as they wish to be taught. In most of my courses, I prioritize a discussion-based approach to learning. I have the experience of teaching principles of macroeconomics and microeconomics, intermediate microeconomics, introductory statistics, quantitative methods, and financial markets and institutions (money and banking).  <br /> <br>
 
 I enjoy reading, playing Xbox, binge-watching seasons and movies, and planning trips with my family in my free time.  <br /> <br>
 
