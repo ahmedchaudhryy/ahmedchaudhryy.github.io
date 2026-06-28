@@ -208,6 +208,28 @@ header {
     margin-bottom: 0;
 }
 
+.profile-text h3 {
+    margin-top: 0.2rem;
+    color: var(--primary-color);
+    font-size: 1.05rem;
+}
+
+.profile-bio {
+    margin-top: 1.5rem;
+    color: #4a5568;
+    font-size: 0.95rem;
+    line-height: 1.65;
+    text-align: left;
+}
+
+.profile-bio p {
+    margin-bottom: 0.9rem;
+}
+
+.profile-bio p:last-child {
+    margin-bottom: 0;
+}
+
 /* Sections */
 section {
     padding: 8rem 0;
