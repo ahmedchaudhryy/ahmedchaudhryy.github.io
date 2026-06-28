@@ -72,127 +72,157 @@ window.addEventListener('scroll', function() {
     }
 });
 
-// Scholar stats and publications functions
-async function updateScholarStats() {
-    try {
-        const response = await fetch('./assets/data/scholar_stats.json');
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        const data = await response.json();
-        
-        document.getElementById('citation-count').textContent = data.citations;
-        document.getElementById('publication-count').textContent = data.publications;
-        document.getElementById('h-index').textContent = data.h_index;
-        document.getElementById('last-updated').textContent = data.last_updated;
-    } catch (error) {
-        console.error('Error fetching scholar stats:', error);
+// Scholar stats and categorized research
+let researchDataPromise;
+
+function loadResearchData() {
+    if (!researchDataPromise) {
+        researchDataPromise = fetch('./assets/data/scholar_stats.json').then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.json();
+        });
     }
+
+    return researchDataPromise;
 }
 
-async function updatePublications() {
-    try {
-        const response = await fetch('./assets/data/scholar_stats.json');
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
+function updateScholarStats(data) {
+    const stats = {
+        'citation-count': data.citations,
+        'publication-count': data.publications,
+        'h-index': data.h_index,
+        'last-updated': data.last_updated
+    };
+
+    Object.entries(stats).forEach(([id, value]) => {
+        const element = document.getElementById(id);
+        if (element) {
+            element.textContent = value ?? '—';
         }
-        
-        const data = await response.json();
-        const publicationList = document.getElementById('recent-publications');
-        
-        if (!publicationList) {
-            console.error('Publication list container not found!');
-            return;
-        }
-        
-        publicationList.innerHTML = '';
-        
-        if (data.recent_publications && data.recent_publications.length > 0) {
-            // Use slice to get the first three publications
-            const recentPublications = data.recent_publications.slice(0, 3);
-            
-            recentPublications.forEach((pub, index) => {
-                const pubDiv = document.createElement('div');
-                pubDiv.className = 'publication-item';
-                pubDiv.setAttribute('data-aos', 'fade-up');
-                
-                pubDiv.innerHTML = `
-                    <div class="publication-year">${pub.year}</div>
-                    <h3><a href="${pub.url}" target="_blank">${pub.title}</a></h3>
-                    <p class="Journal">${pub.citation || 'Citation not available'}</p>
-                    <button class="abstract-toggle" onclick="toggleAbstract(${index})">
-                        Show Abstract
-                    </button>
-                    <div class="abstract" id="abstract-${index}" style="display: none;">
-                        ${pub.abstract || 'Abstract not available'}
-                    </div>
-                `;
-                
-                publicationList.appendChild(pubDiv);
-            });
-        }
-    } catch (error) {
-        console.error('Error updating publications:', error);
-    }
+    });
 }
 
-async function updatePublications_all() {
-    try {
-        const response = await fetch('./assets/data/scholar_stats.json');
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        
-        const data = await response.json();
-        const publicationList = document.getElementById('all-publications'); // Change to 'all-publications'
-        
-        if (!publicationList) {
-            console.error('Publication list container not found!');
-            return;
-        }
-        
-        publicationList.innerHTML = ''; // Clear previous content
-        
-        if (data.recent_publications && data.recent_publications.length > 0) {
-            // Remove the slice method to display all publications
-            data.recent_publications.forEach((pub, index) => {
-                const pubDiv = document.createElement('div');
-                pubDiv.className = 'publication-item';
-                pubDiv.setAttribute('data-aos', 'fade-up');
-                
-                pubDiv.innerHTML = `
-                    <div class="publication-year">${pub.year}</div>
-                    <h3><a href="${pub.url}" target="_blank">${pub.title}</a></h3>
-                    <p class="Journal">${pub.citation || 'Citation not available'}</p>
-                    <button class="abstract-toggle" onclick="toggleAbstract(${index})">
-                        Show Abstract
-                    </button>
-                    <div class="abstract" id="abstract-${index}" style="display: none;">
-                        ${pub.abstract || 'Abstract not available'}
-                    </div>
-                `;
-                
-                publicationList.appendChild(pubDiv); // Append the new publication item
-            });
-        }
-    } catch (error) {
-        console.error('Error updating publications:', error);
-    }
-}
+function createPublicationItem(publication, abstractId) {
+    const item = document.createElement('article');
+    item.className = 'publication-item';
+    item.setAttribute('data-aos', 'fade-up');
 
+    const year = document.createElement('div');
+    year.className = 'publication-year';
+    year.textContent = publication.year || 'Year unavailable';
+    item.appendChild(year);
 
-
-function toggleAbstract(index) {
-    const abstractDiv = document.getElementById(`abstract-${index}`);
-    const button = abstractDiv.previousElementSibling;
-    
-    if (abstractDiv.style.display === 'none') {
-        abstractDiv.style.display = 'block';
-        button.textContent = 'Hide Abstract';
+    const heading = document.createElement('h4');
+    if (publication.url) {
+        const link = document.createElement('a');
+        link.href = publication.url;
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        link.textContent = publication.title;
+        heading.appendChild(link);
     } else {
-        abstractDiv.style.display = 'none';
-        button.textContent = 'Show Abstract';
+        heading.textContent = publication.title;
     }
+    item.appendChild(heading);
+
+    if (publication.authors) {
+        const authors = document.createElement('p');
+        authors.className = 'publication-authors';
+        authors.textContent = publication.authors;
+        item.appendChild(authors);
+    }
+
+    if (publication.citation) {
+        const citation = document.createElement('p');
+        citation.className = 'journal';
+        citation.textContent = publication.citation;
+        item.appendChild(citation);
+    }
+
+    if (publication.abstract) {
+        const button = document.createElement('button');
+        button.className = 'abstract-toggle';
+        button.type = 'button';
+        button.textContent = 'Show Abstract';
+        button.setAttribute('aria-expanded', 'false');
+        button.setAttribute('aria-controls', abstractId);
+
+        const abstract = document.createElement('div');
+        abstract.className = 'abstract';
+        abstract.id = abstractId;
+        abstract.hidden = true;
+        abstract.textContent = publication.abstract;
+
+        button.addEventListener('click', () => {
+            const willOpen = abstract.hidden;
+            abstract.hidden = !willOpen;
+            button.textContent = willOpen ? 'Hide Abstract' : 'Show Abstract';
+            button.setAttribute('aria-expanded', String(willOpen));
+        });
+
+        item.appendChild(button);
+        item.appendChild(abstract);
+    }
+
+    return item;
+}
+
+function renderPublicationCategory(publications, containerId, categoryKey) {
+    const container = document.getElementById(containerId);
+    if (!container) {
+        return;
+    }
+
+    container.innerHTML = '';
+
+    if (!Array.isArray(publications) || publications.length === 0) {
+        const emptyMessage = document.createElement('p');
+        emptyMessage.className = 'publication-empty';
+        emptyMessage.textContent = 'No papers listed yet.';
+        container.appendChild(emptyMessage);
+        return;
+    }
+
+    publications.forEach((publication, index) => {
+        container.appendChild(
+            createPublicationItem(publication, `abstract-${categoryKey}-${index}`)
+        );
+    });
+}
+
+async function updateResearchSection() {
+    try {
+        const data = await loadResearchData();
+        const categories = data.publication_categories || {};
+
+        updateScholarStats(data);
+        renderPublicationCategory(categories.peer_reviewed, 'peer-reviewed-list', 'peer-reviewed');
+        renderPublicationCategory(categories.working_papers, 'working-papers-list', 'working-papers');
+        renderPublicationCategory(categories.works_in_progress, 'works-in-progress-list', 'works-in-progress');
+
+        const allPublications = document.getElementById('all-publications');
+        if (allPublications) {
+            const combined = [
+                ...(categories.peer_reviewed || []),
+                ...(categories.working_papers || []),
+                ...(categories.works_in_progress || [])
+            ];
+            renderPublicationCategory(combined, 'all-publications', 'all-publications');
+        }
+    } catch (error) {
+        console.error('Error updating research data:', error);
+        document.querySelectorAll('.publication-loading').forEach(message => {
+            message.className = 'publication-error';
+            message.textContent = 'Publication data could not be loaded.';
+        });
+    }
+}
+
+// Retain the legacy function name used by curriculum_vitae.html.
+function updatePublications_all() {
+    return updateResearchSection();
 }
 
 // Single DOMContentLoaded event listener for all initializations
@@ -243,9 +273,8 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Update scholar stats and publications
-    updateScholarStats();
-    updatePublications();
+    // Update Scholar metrics and categorized research.
+    updateResearchSection();
 });
 
 // Optional: Add loading animation

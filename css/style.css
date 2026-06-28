@@ -260,11 +260,73 @@ section {
     font-size: 1.5rem;
 }
 
+/* Teaching */
+#teaching {
+    background: var(--light-bg);
+    scroll-margin-top: 90px;
+}
+
+.teaching-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.teaching-card {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+.teaching-card h3 {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.course-list {
+    list-style: none;
+}
+
+.course-list li {
+    position: relative;
+    padding: 0.65rem 0 0.65rem 1.4rem;
+    border-bottom: 1px solid rgba(43, 45, 66, 0.1);
+}
+
+.course-list li:last-child {
+    border-bottom: 0;
+}
+
+.course-list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 1.25rem;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--accent-color);
+}
+
 /* Publications */
-/* Add these styles to your CSS file */
+.publication-category {
+    margin-top: 4rem;
+    scroll-margin-top: 110px;
+}
+
+.publication-category-title {
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.65rem;
+    border-bottom: 2px solid rgba(108, 99, 255, 0.2);
+}
+
 .publication-list {
-    margin: 2rem 0;
-    padding: 1rem;
+    margin: 1.5rem 0 2rem;
 }
 
 .publication-item {
@@ -287,18 +349,25 @@ section {
     margin-bottom: 0.5rem;
 }
 
-.publication-item h3 {
+.publication-item h4 {
     margin: 0.5rem 0;
     color: #333;
+    font-size: 1.25rem;
+    line-height: 1.4;
 }
 
-.publication-item h3 a {
+.publication-item h4 a {
     color: #2c5282;
     text-decoration: none;
 }
 
-.publication-item h3 a:hover {
+.publication-item h4 a:hover {
     text-decoration: underline;
+}
+
+.publication-authors {
+    color: #4a5568;
+    margin: 0.4rem 0;
 }
 
 .publication-item .journal {
@@ -330,6 +399,11 @@ section {
     background-color: #2a4365;
 }
 
+.abstract-toggle:focus-visible {
+    outline: 3px solid rgba(44, 82, 130, 0.35);
+    outline-offset: 2px;
+}
+
 .abstract {
     margin-top: 1rem;
     padding: 1rem;
@@ -338,6 +412,30 @@ section {
     font-size: 0.95rem;
     line-height: 1.6;
     color: #4a5568;
+}
+
+.abstract[hidden] {
+    display: none;
+}
+
+.publication-actions {
+    text-align: center;
+}
+
+.publication-actions .cv-button {
+    margin-left: 0.35rem;
+    margin-right: 0.35rem;
+}
+
+.publication-loading,
+.publication-empty,
+.publication-error {
+    color: #666;
+    padding: 1rem 0;
+}
+
+.publication-error {
+    color: #9b2c2c;
 }
 
 /* Contact Section */
