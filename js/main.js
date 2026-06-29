@@ -14,15 +14,6 @@ window.addEventListener('scroll', function() {
     }
 });
 
-// Optional: Parallax effect for header
-window.addEventListener('scroll', function() {
-    const scrolled = window.pageYOffset;
-    const header = document.querySelector('header');
-    if (header) {
-        header.style.transform = `translateY(${scrolled * 0.5}px)`;
-    }
-});
-
 // Add active state to navigation links based on scroll position
 window.addEventListener('scroll', function() {
     const sections = document.querySelectorAll('section');
@@ -46,31 +37,40 @@ window.addEventListener('scroll', function() {
     });
 });
 
-// Fade effect for header and profile image
-window.addEventListener('scroll', function() {
+// Let the introduction leave naturally, then add a subtle fade near its end.
+// Moving the entire header created a visual overlap with the research section.
+function updateIntroductionFade() {
     const header = document.querySelector('header');
-    const profileImage = document.querySelector('.profile-image-container');
     const headerContent = document.querySelector('.header-content');
-    const researchSection = document.querySelector('#research');
-    
-    if (researchSection) {
-        const researchPosition = researchSection.getBoundingClientRect().top;
-        const windowHeight = window.innerHeight;
-        
-        if (researchPosition < windowHeight) {
-            const opacity = Math.max(0, Math.min(1, researchPosition / windowHeight));
-            headerContent.style.opacity = opacity;
-            profileImage.style.opacity = opacity;
-            headerContent.style.transform = `translateY(${(1 - opacity) * -50}px)`;
-            profileImage.style.transform = `translateY(${(1 - opacity) * -50}px)`;
-        } else {
-            headerContent.style.opacity = 1;
-            profileImage.style.opacity = 1;
-            headerContent.style.transform = 'translateY(0)';
-            profileImage.style.transform = 'translateY(0)';
-        }
+    if (!header || !headerContent) {
+        return;
     }
-});
+
+    const headerBottom = header.getBoundingClientRect().bottom;
+    const fadeStart = window.innerHeight * 0.45;
+    const fadeEnd = window.innerHeight * 0.15;
+    const progress = Math.max(0, Math.min(1,
+        (fadeStart - headerBottom) / (fadeStart - fadeEnd)
+    ));
+
+    headerContent.style.opacity = String(1 - progress);
+    headerContent.style.transform = `translateY(${-16 * progress}px)`;
+}
+
+let introductionFadeFrame;
+function requestIntroductionFade() {
+    if (introductionFadeFrame) {
+        return;
+    }
+
+    introductionFadeFrame = window.requestAnimationFrame(() => {
+        updateIntroductionFade();
+        introductionFadeFrame = null;
+    });
+}
+
+window.addEventListener('scroll', requestIntroductionFade, { passive: true });
+window.addEventListener('resize', requestIntroductionFade);
 
 // Scholar stats and categorized research
 let researchDataPromise;
@@ -227,6 +227,8 @@ function updatePublications_all() {
 
 // Single DOMContentLoaded event listener for all initializations
 document.addEventListener('DOMContentLoaded', function() {
+    updateIntroductionFade();
+
     // Mobile menu functionality
     const hamburger = document.querySelector('.hamburger');
     const navLinks = document.querySelector('.nav-links');
