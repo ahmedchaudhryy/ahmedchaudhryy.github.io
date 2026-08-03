@@ -2,7 +2,7 @@
   "citations": 33,
   "h_index": 3,
   "publications": 10,
-  "last_updated": "2026-06-28",
+  "last_updated": "August 2026",
   "publication_categories": {
     "peer_reviewed": [
       {
@@ -46,15 +46,17 @@
         "url": "https://doi.org/10.5018/economics-ejournal.ja.2019-1"
       }
     ],
-    "working_papers": [
+    "revise_resubmit": [
       {
         "title": "The Nexus Between Political Ideology and IMF Interventions: A Reciprocal Relationship",
         "authors": "Ahmed Chaudhry and Firat Demir",
-        "year": "2025",
-        "citation": "Under review; available at SSRN 5344626.",
+        "year": "2026",
+        "citation": "Revise & Resubmit, Economics and Politics; available at SSRN 5344626.",
         "abstract": "This paper examines how a government’s economic ideology influences its decision to participate in International Monetary Fund programs, how partisanship affects the depth and breadth of IMF conditions, and how IMF programs and conditionality influence which political parties remain in or come to power. Using an instrumental-variable approach, we find that left-wing governments are less likely to enter IMF programs, while right-wing governments are more likely to do so. Left-wing governments face fewer conditionality requirements, whereas right-wing governments face more. A higher burden of conditionality reduces the chances of left-wing or centrist parties staying in or gaining office while increasing those of right-wing parties.",
         "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5344626"
-      },
+      }
+    ],
+    "working_papers": [
       {
         "title": "Government Ideology and Productive Capabilities: Evidence from Close Elections",
         "authors": "Ahmed Chaudhry and Firat Demir",
@@ -65,7 +67,7 @@
       },
       {
         "title": "Who Rules the World? The Myth of Multipolarity and Leadership in International Organizations",
-        "authors": "Ahmed Chaudhry, Firat Demir, Kevin Young, and Omar S. Dahi",
+        "authors": "Ahmed Chaudhry, Firat Demir, Omar S. Dahi, and Kevin Young",
         "year": "2025",
         "citation": "Under review.",
         "abstract": "The growing prominence of the Global South in trade, finance, and politics has been widely viewed as a structural shift in the global balance of power. This paper challenges that narrative by examining leadership representation in 186 international organizations and more than 5,000 leader-year observations from 1997 to 2022. Traditional indicators of power, such as GDP size and income levels, do not significantly influence leadership shares; global trade and foreign direct investment shares are more important. Representation is overwhelmingly shaped by path dependence, with previous leaders’ nationalities predicting future representation with up to 94% accuracy. Emerging and other Global South nations remain underrepresented even after accounting for economic size and other covariates.",
@@ -91,7 +93,7 @@
       },
       {
         "title": "Effect of Covid-19 on Food Insecurity in Pakistan",
-        "authors": "Ahmed Chaudhry and Ahmed El-Fatamoui",
+        "authors": "Ahmed Chaudhry and Ahmed El Fatamoui",
         "year": "2024",
         "citation": "Work in progress.",
         "abstract": "",

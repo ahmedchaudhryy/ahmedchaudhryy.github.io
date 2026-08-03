@@ -199,6 +199,7 @@ async function updateResearchSection() {
 
         updateScholarStats(data);
         renderPublicationCategory(categories.peer_reviewed, 'peer-reviewed-list', 'peer-reviewed');
+        renderPublicationCategory(categories.revise_resubmit, 'revise-resubmit-list', 'revise-resubmit');
         renderPublicationCategory(categories.working_papers, 'working-papers-list', 'working-papers');
         renderPublicationCategory(categories.works_in_progress, 'works-in-progress-list', 'works-in-progress');
 
@@ -206,6 +207,7 @@ async function updateResearchSection() {
         if (allPublications) {
             const combined = [
                 ...(categories.peer_reviewed || []),
+                ...(categories.revise_resubmit || []),
                 ...(categories.working_papers || []),
                 ...(categories.works_in_progress || [])
             ];
