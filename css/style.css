@@ -283,8 +283,18 @@ section {
 
 .research-item h3 {
     color: var(--primary-color);
-    margin-bottom: 1rem;
+    margin-bottom: 0.45rem;
     font-size: 1.5rem;
+}
+
+.research-field-type {
+    color: #6b7280;
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    line-height: 1.4;
+    margin: 0;
+    text-transform: uppercase;
 }
 
 /* Teaching */
