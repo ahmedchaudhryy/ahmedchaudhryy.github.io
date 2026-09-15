@@ -348,6 +348,163 @@ section {
     background: var(--accent-color);
 }
 
+.teaching-effectiveness {
+    margin-top: 4rem;
+    padding: 2.5rem;
+    background: var(--white);
+    border-radius: 20px;
+    box-shadow: 0 12px 36px rgba(43, 45, 66, 0.08);
+    scroll-margin-top: 110px;
+}
+
+.teaching-effectiveness-heading {
+    max-width: 780px;
+    margin: 0 auto 2rem;
+    text-align: center;
+}
+
+.section-kicker {
+    margin-bottom: 0.4rem;
+    color: #6b7280;
+    font-size: 0.82rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.teaching-effectiveness-heading h3 {
+    margin-bottom: 0.75rem;
+    color: var(--primary-color);
+    font-size: 2rem;
+}
+
+.teaching-effectiveness-heading > p:last-child {
+    color: #4a5568;
+}
+
+.teaching-metrics {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.teaching-metric {
+    min-height: 142px;
+    padding: 1.4rem 1rem;
+    border: 1px solid rgba(108, 99, 255, 0.14);
+    border-radius: 14px;
+    background: linear-gradient(145deg, #ffffff 0%, #f7f7ff 100%);
+    text-align: center;
+}
+
+.teaching-metric strong {
+    display: block;
+    margin-bottom: 0.35rem;
+    color: var(--accent-color);
+    font-size: 2rem;
+    line-height: 1.2;
+}
+
+.teaching-metric strong span {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.teaching-metric p {
+    color: #4a5568;
+    font-size: 0.92rem;
+    line-height: 1.4;
+}
+
+.teaching-evidence-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.5rem;
+}
+
+.teaching-evidence-card {
+    padding: 1.6rem;
+    border-radius: 14px;
+    background: var(--light-bg);
+}
+
+.teaching-evidence-card h4,
+.student-feedback h4 {
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+    font-size: 1.25rem;
+}
+
+.score-context {
+    margin: -0.3rem 0 1rem;
+    color: #6b7280;
+    font-size: 0.88rem;
+    line-height: 1.5;
+}
+
+.score-list {
+    list-style: none;
+}
+
+.score-list li {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.7rem 0;
+    border-bottom: 1px solid rgba(43, 45, 66, 0.1);
+}
+
+.score-list li:last-child {
+    border-bottom: 0;
+}
+
+.score-list span {
+    color: #4a5568;
+}
+
+.score-list strong {
+    flex: 0 0 auto;
+    color: var(--primary-color);
+}
+
+.student-feedback {
+    margin-top: 2rem;
+}
+
+.feedback-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.feedback-grid figure {
+    padding: 1.4rem;
+    border-left: 3px solid var(--accent-color);
+    border-radius: 0 12px 12px 0;
+    background: var(--light-bg);
+}
+
+.feedback-grid blockquote {
+    color: #374151;
+    font-style: italic;
+}
+
+.feedback-grid figcaption {
+    margin-top: 0.8rem;
+    color: #6b7280;
+    font-size: 0.82rem;
+    line-height: 1.45;
+}
+
+.teaching-document-link {
+    text-align: center;
+}
+
+.teaching-document-link .cv-button {
+    margin-top: 2.25rem;
+}
+
 /* Publications */
 .publication-category {
     margin-top: 4rem;
@@ -589,6 +746,16 @@ section {
         height: 400px;
     }
 
+    .teaching-metrics,
+    .teaching-evidence-grid,
+    .feedback-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .teaching-effectiveness {
+        padding: 1.5rem;
+    }
+
     .profile-text h1 {
         font-size: 2.5rem;
     }
@@ -618,6 +785,12 @@ section {
 
     .research-grid {
         grid-template-columns: 1fr;
+    }
+
+    .score-list li {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 0.2rem;
     }
 }
 
