@@ -115,11 +115,12 @@ nav .container {
     position: absolute; /* Position it below the parent */
     top: 100%; /* Align it directly below the parent item */
     left: 0; /* Align to the left */
+    min-width: 250px;
     background: rgba(255, 255, 255, 0.9); /* Match the navbar background */
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
     z-index: 1000; /* Ensure it appears above other content */
     padding: 0;
-    margin: 0
+    margin: 0;
     border-radius: 4px; /* Optional: round the corners */
     list-style: none; /* Remove bullet points */
 }
@@ -139,7 +140,8 @@ nav .container {
 }
 
 /* Show dropdown on hover */
-.nav-links > li:hover .dropdown {
+.nav-links > li:hover .dropdown,
+.nav-links > li:focus-within .dropdown {
     display: block; /* Show dropdown on hover */
 }
 
@@ -308,6 +310,7 @@ section {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     margin-top: 3rem;
+    scroll-margin-top: 110px;
 }
 
 .teaching-card {
@@ -721,6 +724,22 @@ section {
 
     .nav-links.active {
         right: 0;
+    }
+
+    .teaching-nav .dropdown {
+        position: static;
+        display: block;
+        min-width: 0;
+        margin-top: 0.4rem;
+        background: transparent;
+        box-shadow: none;
+        text-align: center;
+    }
+
+    .teaching-nav .dropdown a {
+        padding: 0.35rem 1rem;
+        color: #6b7280;
+        font-size: 0.9rem;
     }
 
     .hamburger.active span:nth-child(1) {
