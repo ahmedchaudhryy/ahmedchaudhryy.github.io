@@ -2,14 +2,14 @@
   "citations": 33,
   "h_index": 3,
   "publications": 10,
-  "last_updated": "September 2026",
+  "last_updated": "November 2026",
   "publication_categories": {
     "peer_reviewed": [
       {
         "title": "Does government ideology affect labour injuries?",
         "authors": "Mustafa Caglayan, Ahmed Chaudhry, and Firat Demir",
-        "year": "2026",
-        "citation": "Applied Economics Letters, 2026, pp. 1–5.",
+        "year": "2025",
+        "citation": "Applied Economics Letters, 2025, pp. 1–5.",
         "abstract": "Utilizing a comprehensive cross-sectional annual panel dataset spanning 94 countries, we examine the effects of the economic ideology of heads of state on fatal and nonfatal workplace injuries. Based on a two-stage least-squares instrumental variables method, our empirical analysis suggests an increase in fatal and nonfatal injury incidence under right-wing heads of state and a decrease under left-wing heads of state, which are economically relevant.",
         "url": "https://www.tandfonline.com/doi/abs/10.1080/13504851.2025.2608295"
       },
@@ -17,7 +17,7 @@
         "title": "Do Limits to Campaign Contribution Laws Affect Welfare Policy? Evidence from the US States",
         "authors": "Ahmed Chaudhry",
         "year": "2026",
-        "citation": "The B.E. Journal of Economic Analysis & Policy, 2026.",
+        "citation": "The B.E. Journal of Economic Analysis & Policy, 26(3), pp. 853–892.",
         "abstract": "This paper analyzes how campaign contribution laws influence state-level welfare policies in the US. Previous studies show that policy outcomes often disproportionately reflect the preferences of high-income individuals and organized interest groups over those of low-income groups. The primary channel of this influence over policy is private campaign contributions. However, restricting the amount of money in politics through stricter campaign finance laws reduces donor influence over political candidates and increases legislative representation for low-income groups. Using a panel of US states from 1980 to 2018, the paper examines two key measures of a state's welfare-policy generosity: the real minimum wage and the Earned Income Tax Credit (EITC). The empirical analysis reveals that more stringent campaign contribution laws are associated with significant increases in both the minimum wage and EITC rates. These effects remain robust to a battery of sensitivity tests and alternative measures of state welfare-policy generosity.",
         "url": "https://www.degruyterbrill.com/document/doi/10.1515/bejeap-2025-0219/html"
       },
@@ -41,7 +41,7 @@
         "title": "Political competition and economic policy: empirical evidence from Pakistan",
         "authors": "Ahmed Chaudhry and Ummad Mazhar",
         "year": "2019",
-        "citation": "Economics: The Open-Access, Open-Assessment E-Journal, 13 (2019-1), pp. 1–25.",
+        "citation": "Economics, 13(1), 20190001.",
         "abstract": "The influence of politics on economic policy is not fully understood, and the challenge of ensuring political inclusiveness and economic prosperity remains. This paper gathers empirical evidence from Pakistan, focusing on nine elections held from 1970 to 2015 to measure political competition and estimate its impact on economic policy. Contrary to popular conceptions about Pakistan’s economy, the authors find a positive association between a lack of political competition and poor economic policy. This finding holds at national and subnational levels and withstands a number of robustness tests.",
         "url": "https://doi.org/10.5018/economics-ejournal.ja.2019-1"
       }
@@ -51,20 +51,20 @@
         "title": "The Nexus Between Political Ideology and IMF Interventions: A Reciprocal Relationship",
         "authors": "Ahmed Chaudhry and Firat Demir",
         "year": "2026",
-        "citation": "R&R, Economics & Politics; available at SSRN 5344626.",
+        "citation": "R&R, Economics & Politics.",
         "abstract": "This paper examines how a government’s economic ideology influences its decision to participate in International Monetary Fund programs, how partisanship affects the depth and breadth of IMF conditions, and how IMF programs and conditionality influence which political parties remain in or come to power. Using an instrumental-variable approach, we find that left-wing governments are less likely to enter IMF programs, while right-wing governments are more likely to do so. Left-wing governments face fewer conditionality requirements, whereas right-wing governments face more. A higher burden of conditionality reduces the chances of left-wing or centrist parties staying in or gaining office while increasing those of right-wing parties.",
         "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5344626"
-      }
-    ],
-    "working_papers": [
+      },
       {
         "title": "Government Ideology and Productive Capabilities: Evidence from Close Elections",
         "authors": "Ahmed Chaudhry and Firat Demir",
         "year": "2026",
-        "citation": "Under review.",
+        "citation": "R&R, Economic Systems.",
         "abstract": "This paper examines how government ideology shapes productive capabilities, focusing on the short- and medium-term effects of closely contested elections. Using a novel dataset on economic partisanship and sectoral productivity across countries, we find that left- and right-wing governments tend to reduce productive capabilities, whereas centrist governments tend to enhance them. These effects are amplified in autocratic regimes and in parliamentary systems. These findings highlight the importance of regime type and government structure in determining how partisan agendas affect the accumulation of productive capabilities and the effectiveness of development-oriented policies.",
         "url": ""
-      },
+      }
+    ],
+    "working_papers": [
       {
         "title": "Who Rules the World? The Myth of Multipolarity and Leadership in International Organizations",
         "authors": "Ahmed Chaudhry, Firat Demir, Omar S. Dahi, and Kevin Young",
@@ -93,7 +93,7 @@
       },
       {
         "title": "Effect of COVID-19 on Food Insecurity in Pakistan",
-        "authors": "Ahmed Chaudhry and Ahmed El Fatamoui",
+        "authors": "Ahmed Chaudhry and Ahmed El Fatmaoui",
         "year": "2024",
         "citation": "Work in progress.",
         "abstract": "",
